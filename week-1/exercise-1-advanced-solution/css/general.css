@@ -1,0 +1,56 @@
+html,
+body {
+	background-color: #380010;
+
+	font: normal 100%/1.5 Georgia,serif;
+}
+
+blockquote {
+	margin: 5em auto 0;
+	padding: 1.5em 4em 2.25em;
+	position: relative;
+	width: 35em;
+
+	background-color: #9d004d;
+	border-radius: 1em;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+
+	color: #fff;
+	font-size: 1.25em;
+}
+
+cite {
+	display: block;
+
+	color: #fb9dbe;
+	font-family: Arial,sans-serif;
+	font-style: normal;
+	text-align: right;
+}
+
+/*
+	We can use :before and :after to simplify our HTML.
+	Since the quote marks are really more for decoration, we can use CSS to generate them.
+	We don't need the quote marks in HTML, because the blockquote adds the same meaning.
+ */
+p:before,
+p:after {
+	position: absolute;
+
+	color: #c30057;
+	font: normal 8em/1 Arial,sans-serif;
+}
+
+p:before {
+	left: 0.1em;
+	top: 0.1em;
+
+	content: "“";
+}
+
+p:after {
+	margin-top: -0.1em;
+	right: 0.1em;
+
+	content: "”";
+}
