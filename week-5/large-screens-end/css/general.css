@@ -1,12 +1,12 @@
 @charset "UTF-8";
-/* Responsive Setup 
+/* Responsive Setup */
 
 @-moz-viewport { width: device-width; scale: 1;}
 @-ms-viewport { width: device-width; scale: 1;}
 @-webkit-viewport { width: device-width; scale: 1;}
 @-o-viewport { width: device-width; scale: 1;}
 @viewport { width: device-width; scale: 1;}
-*/
+
 html{
 	-moz-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
@@ -23,8 +23,6 @@ html, body{
 	padding: 0;
 	width: 100%;
 }
-
-/* 8888888888888888888888888888888888888888888888 */
 
 @media only screen and (min-width: 100em){
 	html{
@@ -166,8 +164,6 @@ overflow: hidden;
 
 }
 
-/* 8888888888888888888888888888888888888888888888 */
-
 @media only screen and (min-width: 75em){
 	header{
 		float: left;
@@ -177,32 +173,47 @@ overflow: hidden;
 	.main{
 		float: right;
 		width: 75%;
-		padding:0 2.5%;
-		margin-top: 50px;
+		margin-top: 3.125rem;
 	}
 	
 	footer{
 		clear: both;
 	}
-	
+
 	.nav-top{
 		float: none;
 		clear: both;
 		max-height: 15rem;
 	}
-	
+
 	.nav-top li{
 		display: block;
 		border-top: 1px solid #fff;
 	}
+
+
+/*Same look as adding the border to .nav-top li*/
+/*	
+	.nav-top a, 
+	.nav-top a:link,
+	.nav-top a:visited{
+		border-top: 1px solid #fff;
+	}
+*/
+
 	.nav a, 
 	.nav a:link,
-	.nav a:visited{
+	.nav a:visited, 
+	.nav{
 		text-align: left;
 	}
-	
+
+	.copyright{
+		width: auto;
+		margin: 1rem;
+	}
+
 }
-	
 
 /* Homepage */
 
@@ -316,18 +327,3 @@ overflow: hidden;
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
