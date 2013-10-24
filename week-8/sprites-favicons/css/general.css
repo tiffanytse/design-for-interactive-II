@@ -26,13 +26,13 @@ li{
 /* position-x and position-y */
 
 .i-square {
-	background-position: -18px 0;
+	background-position: -16px 0;
 }
 
 .i-circle {
-	background-position: 0 -18px;
+	background-position: 0 -16px;
 }
 
 .i-triangle {
-	background-position: -18px -18px;
+	background-position: -16px -16px;
 }
