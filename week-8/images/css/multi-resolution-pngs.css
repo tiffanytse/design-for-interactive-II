@@ -1,0 +1,31 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.icon {
+	display: inline-block;
+	margin-right: 0.3rem;
+	height: 32px;
+	width: 32px;
+
+	background: transparent url("../img/icon.png") no-repeat center center;
+
+	vertical-align: text-top;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+
+	.icon {
+		background-image: url("../img/icon2x.png");
+		background-size: 32px 32px;
+	}
+
+}
