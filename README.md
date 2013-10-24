@@ -12,3 +12,5 @@ Weekly Assets for DFI II (Algonquin College Graphic Design Program)
 #### Week 4 - Medium Screens (Media Queries)
 
 #### Week 5 - Large Screens 
+
+#### Week 8 - Images, Sprites, Favicons 
