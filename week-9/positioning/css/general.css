@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding: 25px;
+}
+
+.box {
+	margin: 0;
+	width: 15rem;
+	height: 15rem;
+	padding: 2rem;
+	font-family: sans-serif;
+	color: rgba(0, 0, 0, 0.5);
+	
+	background-color: #ccc;
+	border: 1rem solid #666;
+
+	text-align: center;
+}
+
+.box-1 {
+	background-color: #F1C40F;
+	border-color: #F39C12;
+
+}
+
+.box-2{
+	background-color:#E67E22;
+	border-color:#D35400;
+	
+}
+
+.box-3{
+	background-color:#E74C3C;
+	border-color: #C0392B;
+}
+
+
+.box-4 {
+	background-color: #9B59B6;
+	border-color: #8E44AD;
+}
+
+.box-5 {
+	background-color: #3498DB;
+	border-color: #2980B9;
+}
+
+.box-6 {
+	background-color: #2ECC71;
+	border-color: #27AE60;
+}
+
+
+/*
+	Positioning
+*/
+
+/*
+Position: RELATIVE
+Allows the box to be moved from the flow
+while still maintaining the original space
+*/
+.box-2 {
+	position: relative;
+	left: 25px;
+	top: 25px;
+}
+
+/*
+Position: ABSOLUTE
+Completely removes the box from the flow
+All other boxes fill the space
+
+Positioning is against the parent context
+by default that is the <body>
+
+When something is positioned,
+it becomes a new positioning context
+*/
+.box-2 h2 {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+
+.box-4 {
+	position: absolute;
+	left: 50px;
+	top: 50px;
+}
+
+.box-4 h2 {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+
+/*
+Position: FIXED
+Completely removes the box from the flow
+All other boxes fill the space
+Positions against the window
+Does not move when the user scrolls
+*/
+.box-6 {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding: 25px;
+}
+
+.box {
+	margin: 0;
+	width: 15rem;
+	height: 15rem;
+	padding: 2rem;
+	font-family: sans-serif;
+	color: rgba(0, 0, 0, 0.5);
+	
+	background-color: #ccc;
+	border: 1rem solid #666;
+
+	text-align: center;
+}
+
+.box-1 {
+	background-color: #F1C40F;
+	border-color: #F39C12;
+
+}
+
+.box-2{
+	background-color:#E67E22;
+	border-color:#D35400;
+	
+}
+
+.box-3{
+	background-color:#E74C3C;
+	border-color: #C0392B;
+}
+
+
+.box-4 {
+	background-color: #9B59B6;
+	border-color: #8E44AD;
+}
+
+.box-5 {
+	background-color: #3498DB;
+	border-color: #2980B9;
+}
+
+.box-6 {
+	background-color: #2ECC71;
+	border-color: #27AE60;
+}
+
+/*
+	Z-Index
+	The layering system of browsers
+	
+	By default elements further down in the
+	code are closer to you in the browser
+	further down = more on top
+	
+	We can only control z-index on
+	positioned elements
+*/
+
+body {
+	padding: 0;
+}
+
+.box {
+	position: absolute;
+}
+
+.box:hover {
+	z-index: 100;
+}
+
+.box-1 {
+}
+
+.box-2 {
+	left: 50px;
+}
+
+.box-3 {
+	left: 100px;
+}
+
+.box-4 {
+	left: 150px;
+}
+
+.box-5 {
+	left: 200px;
+}
+
+.box-6 {
+	left: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
