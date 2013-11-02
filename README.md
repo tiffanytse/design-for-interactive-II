@@ -14,3 +14,5 @@ Weekly Assets for DFI II (Algonquin College Graphic Design Program)
 #### Week 5 - Large Screens 
 
 #### Week 8 - Images, Sprites, Favicons 
+
+#### Week 9 - Positioning and Z Index
