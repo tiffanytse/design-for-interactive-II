@@ -40,11 +40,19 @@ h2{
 }
 
 .ease-all{
-	-webkit-transition: all 400ms ease-in-out;
-	-moz-transition: all 400ms ease-in-out;
-	-o-transition: all 400ms ease-in-out;
-	-ms-transition: all 400ms ease-in-out;
-	transition: all 400ms ease-in-out;
+	-webkit-transition: all 350ms ease-in-out;
+	-moz-transition: all 350ms ease-in-out;
+	-o-transition: all 350ms ease-in-out;
+	-ms-transition: all 350ms ease-in-out;
+	transition: all 350ms ease-in-out;
+}
+
+.ease-bounce{
+	-webkit-transition: all .5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+	-moz-transition: all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	-o-transition: all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	-ms-transition: all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	transition: all .5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 
 

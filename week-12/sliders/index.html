@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Sliders</title>
+		<link href="css/reset.css" rel="stylesheet">
+		<!-- Import plugin css before your own stylesheet - but after reset -->
+		<link rel="stylesheet" href="flexslider/flexslider.css" type="text/css">
+		<link href="css/general.css" rel="stylesheet">
+		<meta name="handheldfriendly" content="true">
+		<meta name="mobileoptimized" content="240">
+		<meta name="viewport" content="width=device-width,initial-scale=1" >
+	</head>
+
+	<body>
+		<!-- Slider Starts-->
+		<div class="flexslider">
+		  <ul class="slides">
+		    <li>
+		      <img src="images/brownie.jpg" alt="A yummy brownie">
+		    </li>
+		    <li>
+		      <img src="images/cupcakes.jpg" alt="A bunch of cupcakes">
+					<p class="flex-caption">Captions and cupcakes. Winning combination.</p>
+		    </li>
+		    <li>
+		      <img src="images/donut-cupcake.jpg" alt="A donut cupcake">
+		    </li>
+		  </ul>
+		</div>
+	  <!-- Slider Ends-->
+
+	  <!-- Import jQuery library (needed if we are using jquery of any kind)-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	  <!-- Import jQuery plugin -->
+		<script src="flexslider/jquery.flexslider-min.js"></script>
+	  <!-- Trigger jQuery plugin -->
+		<script type="text/javascript" charset="utf-8">
+		  $(window).load(function() {
+		    $('.flexslider').flexslider({
+						//customize plugin with built in settings
+						animation: "slide",
+				});
+		  });
+		</script>
+	</body>
+</html>
