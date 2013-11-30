@@ -14,16 +14,30 @@ html{
 	text-size-adjust: 100%;
 }
 
+
 .flexslider{
-	max-width: 400px;
-	margin: 0 auto;
+	max-width: 45rem; /*720px*/
+	margin: 3rem auto;
+	border: 0;
+	box-shadow: none;
+
 }
 
+
 .flex-caption{
-	font-family: sans-serif;
 	position: absolute;
-	bottom: 0;
-	background-color: rgba(255, 255, 255, 0.5);
-	padding: 1em;
-	/*margin: 0;*/
+	width: 100%;
+	bottom: 1rem;
+	margin: 0;
+	padding: 1rem;
+	background-color: rgba(255,255,255,0.7);
 }
+
+
+
+
+
+
+
+
+
